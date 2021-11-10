@@ -59,5 +59,6 @@ docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/aspect_sentiment:latest
 
 ### Configure AWS Lambda
 Create function and choose the image file from ECR
+
 Integrate AWS API Gateway with the Lambda instance.
 
