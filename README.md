@@ -13,6 +13,7 @@ Aspect based sentiment analysis to compute the sentiment with respect to every a
 ### Production
 
 Uses Docker image and pushes it to AWS ECR. Creating AWS lambda functionfrom the ECR image.
+
 The purpose of creating lambda function using ECR is because the AWS lambda provides limit of 50MB zip  file and unzipped version should be upto 250MB  whereas ECR does not have such limits.
 
 ### Configure AWS
